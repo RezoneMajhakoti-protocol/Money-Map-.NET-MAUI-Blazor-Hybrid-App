@@ -1,0 +1,17 @@
+.custom-nav[b-k40269lovz] {
+  
+    height: 30px;
+    font-family: arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: black;
+}
+
+
+
+
+.custom-nav:focus[b-k40269lovz] {
+    border-bottom: 2px solid black;
+}

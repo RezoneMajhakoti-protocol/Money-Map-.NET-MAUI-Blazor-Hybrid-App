@@ -1,0 +1,17 @@
+﻿@page "/settings"
+@layout MainNavLayout
+@inherits LayoutComponentBase
+@inject NavigationManager navigationmanger
+
+<div style="display: flex; flex-direction: row;">
+
+	
+	<a class="custom-nav" href="edit_account" style="font-weight: bold;" id="title_account">@title_account</a>
+	<a style="margin-left: 20px; font-weight: bold;" class="custom-nav" href="currency" id="currency_change">@currency_change</a>
+	
+
+</div>
+
+<div>
+	@Body
+</div>

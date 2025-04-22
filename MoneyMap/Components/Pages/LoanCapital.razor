@@ -1,0 +1,57 @@
+﻿@page "/loancapital"
+@layout MainNavLayout
+@inject ITData data
+@inject IDialogService DialogService
+@inject ISnackbar Snackbar
+
+<div class="full-body">
+	<div class="top-box">
+		<div>
+			<input class="search-box" type="search" placeholder="Search Debt By Debt Source!" @bind="_SEARCHING"/>
+			<button class="search-button" type="submit"><i class="bi bi-search" @onclick="Search"></i></button>
+		</div>
+		<div class="multiple-function-box">
+			<button class="function-bttn" type="submit" @onclick="Export"><i class="bi bi-box-arrow-up"></i>Export</button>
+		
+			<button class="function-bttn" type="submit" @onclick="OpenDialogAsync"><i class="bi bi-plus-lg"></i>Add</button>
+			<button class="function-bttn" type="submit" @onclick="OpenFilter"><i class="bi bi-funnel"></i>Filter</button>
+		</div>
+	</div>
+	<div class="bottom-box">
+		<table id="transaction_table">
+			<tr>
+				<th>Debt Source<i id="sort-arrow" class="bi bi-arrow-down h5" @onclick="() => Sort(debt_source)"></i></th>
+				<th>Amount<i id="sort-arrow" class="bi bi-arrow-down h5" @onclick="() => Sort(debt_Amount)"></i></th>
+				<th>Date<i id="sort-arrow" class="bi bi-arrow-down h5" @onclick="() => Sort(debt_date)"></i></th>
+				<th>Status<i id="sort-arrow" class="bi bi-arrow-down h5" @onclick="() => Sort(debt_status)"></i></th>
+				
+			</tr>
+
+			@foreach (var trans in debt_get)
+			{
+				<tr>
+					<td style="width:30%;">@trans._debtSource</td>
+					<td>@currency@trans._debtAmount</td>
+					<td>@trans._debtDate.ToString("yyyy-MM-dd")</td>
+					<td>
+						@if (trans._debt_status == "Paid")
+						{
+							
+							<p style="color: black">@trans._debt_status</p>
+						}
+						@if(trans._debt_status =="Unpaid")
+						{
+							<p style="color: red">@trans._debt_status</p>
+						}
+					</td>
+				
+				</tr>
+			}
+
+		</table>
+
+	</div>
+
+
+</div>
+

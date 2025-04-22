@@ -1,0 +1,93 @@
+@inject ITData data
+@inject ISnackbar Snackbar
+<MudDialog>
+ 
+   
+    <DialogContent>
+     
+        <form style="display: flex; flex-direction: column;">
+                <label for="date">Date Range</label>
+         
+                <div class="date-range">
+                <label for="date">From</label>
+                <input style="margin-left: 6px;" class="date-textfield" type="date" id="date" name="date" @bind="_FROM_DATE" />
+                <label style="margin-left: 6px" for="date">To</label>
+                <input style="margin-left: 6px;" class="date-textfield" type="date" id="date" name="date" @bind="_TO_DATE"/>
+                </div>
+                               <label style="margin-top: 10px;" for="types">Types</label>
+
+                               
+                <select style="margin-top: 10px;" class="custom-tags" name="select-box-tags" id="select-box-tags" @bind="_TYPES">
+                   @if(Types == "Transaction")
+                   {
+                    <option selected>Expense</option>
+                    <option>Income</option>
+                   }
+                   
+                   @if(Types == "Loan")
+                {
+                    <option selected>Paid</option>
+                    <option>Unpaid</option>
+                }
+             
+                </select>
+                @if(Types == "Transaction")
+            {
+                <label style="margin-top: 10px;" for="tags">Tags</label>
+                <input class="user-textfield" type="text" id="tags" name="tags" @bind="_TAGS" required />
+            }
+
+        </form>
+    </DialogContent>
+    <DialogActions>
+        <button class="custom-buttone" @onclick="Cancel">Cancel</button>
+        <button class="custom-buttone"@onclick="Reset" >Reset</button>
+        <button class="custom-buttone" @onclick="Submit">Filter</button>
+
+    </DialogActions>
+</MudDialog>
+
+@code {
+    [CascadingParameter]
+    private MudDialogInstance MudDialog { get; set; }
+
+    [Parameter]
+    public string? Types { get; set; }
+
+    private IEnumerable<Transaction_Model> _TRANSACTION_FILTER;
+    private IEnumerable<Debt_Model> _DEBT_FILTER;
+
+    public DateTime _FROM_DATE { get; set; } = DateTime.Now;
+    public DateTime _TO_DATE { get; set; } = DateTime.Now;
+    public string _TYPES { get; set; } 
+    public string? _TYPES_LOAN { get; set; } = "Unpaid";
+    public string? _TAGS { get; set; }
+
+    protected sealed override void OnInitialized()
+    {
+        _TYPES = Types == "Transaction" ? "Expense" : "Paid";
+    }
+
+    private void Submit()
+    {
+    
+
+        if(Types == "Transaction")
+        {
+            _TRANSACTION_FILTER = data.GetTranscationAll().Where(t => (t._types == _TYPES) && (t._date <= _FROM_DATE && t._date >= _TO_DATE) && (t._tags.ToLower().Contains(_TAGS != null ? _TAGS.ToLower() : "")));
+            MudDialog.Close(DialogResult.Ok(_TRANSACTION_FILTER));
+        }
+        else
+        {
+            _DEBT_FILTER = data.GetAllDebt().Where(t => (t._debt_status == _TYPES) && (t._debtDate <= _FROM_DATE && t._debtDate >= _TO_DATE));
+            MudDialog.Close(DialogResult.Ok(_DEBT_FILTER));
+        }
+
+        
+
+    }
+
+    private void Cancel() => MudDialog.Cancel();
+
+    private void Reset() => MudDialog.Cancel();
+}

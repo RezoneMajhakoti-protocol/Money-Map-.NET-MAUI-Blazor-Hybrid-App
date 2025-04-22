@@ -1,0 +1,40 @@
+.change-currency-box {
+
+}
+
+.custom-currency-box {
+    width: 200px;
+    height: 35px;
+    background-color: white;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    position: relative;
+    appearance: none;
+    background-image: url('https://img.icons8.com/ios-filled/50/000000/expand-arrow.png');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+.login-button-modify {
+    width: 200px;
+    height: 40px;
+    background-color: #3D00CA;
+    border-radius: 5px;
+    margin-top: 5px;
+    color: white;
+}
+
+
+    .login-button-modify:hover {
+        background-color: #17004d;
+    }
+

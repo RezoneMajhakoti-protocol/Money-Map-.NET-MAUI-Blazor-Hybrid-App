@@ -1,0 +1,37 @@
+.box[b-658rnux9wt]
+{
+	height: 100vh;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center
+
+}
+
+.red-box[b-658rnux9wt]{
+
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+
+
+}
+
+.logo[b-658rnux9wt]{
+	
+	
+	padding: 10px 10px 10px 10px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo-name[b-658rnux9wt]{
+	
+	padding: 10px 10px 10px 10px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}

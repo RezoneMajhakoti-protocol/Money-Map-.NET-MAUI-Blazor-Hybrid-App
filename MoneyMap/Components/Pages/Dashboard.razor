@@ -1,0 +1,135 @@
+﻿@page "/dashboard"
+@layout MainNavLayout
+@inject ITData data
+@inject ISnackbar Snackbar
+
+<div class="full-body">
+	<div class="date-box">
+		<div>
+			<h4>Hello user,</h4>
+			<h5 style="font-size: 16px; color:#575757; font-weight: 400;">Welcome to Money Map</h5>
+		</div>
+		<div>
+			<select class="inside-date-box" name="date-range" id="date-range" @onchange="HandleTotal">
+				<option selected>Last 1 Day</option>
+				<option >Last 7 Days</option>
+				<option>Last 30 Days</option>
+				<option >Last 3 Months</option>
+				<option >Last 6 Months</option>
+				<option >Last 1 Year</option>
+			</select>
+		
+		</div>
+	</div>
+	<div class="total-box">
+		<div class="inside-total-box">
+			<h5 style="font-size: 14px;">Balance</h5>
+
+			<h3>@currency@total_Balance</h3>
+		
+			
+		</div>
+		<div class="inside-total-box">
+			<h5 style="font-size: 14px;">Inflow</h5>
+			<h3 style="font-size: 32px;">@currency@total_income</h3>
+		
+		
+			
+		</div>
+		<div class="inside-total-box">
+			<h5 style="font-size: 14px;">Outflow</h5>
+			<h3>@currency@total_expens</h3>
+		</div>
+		<div class="inside-total-box">
+			<h5 style="font-size: 14px;">Remained Debt</h5>
+			<h3>@currency@_TOTAL_REMAINING_DEBT</h3>
+		
+			
+		</div>
+	</div>
+	
+	<div class="debt-first-layer">
+		<div class="debt-two-box">
+			<div style="display:flex; flex-direction: row; justify-content: space-between;">
+				<h4>Remained Debt</h4>
+				<h4 style="color: red;">@currency@_TOTAL_REMAINING_DEBT</h4>
+
+            </div>
+			
+		
+			<div class="inside-debt-box">
+			
+				<table>
+					<tr>
+						<th>Debt Source</th>
+						<th>Amount</th>
+						<th>Date</th>
+                    </tr>
+					
+
+				
+					@foreach (var remaining_debt in _REMAINING_DEBT_LIST)
+					{
+						<tr>
+							<td>@remaining_debt._debtSource</td>
+							<td>@currency@remaining_debt._debtAmount</td>
+							<td>@remaining_debt._debtDate.ToString("yyyy-MM-dd")</td>
+						</tr>
+					}
+			
+				</table>
+			
+			</div>
+		</div>
+		<div class="debt-two-box">
+			<div style="display:flex; flex-direction: row; justify-content: space-between;">
+				<h4>Cleared Debt</h4>
+				<h4 style="color: #3D00CA;">@currency@_TOTAL_CLEARED_DEBT</h4>
+
+			</div>
+			<div class="inside-debt-box">
+				<table>
+					<tr>
+						<th>Debt Source</th>
+						<th>Amount</th>
+						<th>Date</th>
+					</tr>
+					@foreach (var remaining_debt in _CLEARD_DEBT_LIST)
+					{
+						<tr>
+							<td>@remaining_debt._debtSource</td>
+							<td>@currency@remaining_debt._debtAmount</td>
+							<td>@remaining_debt._debtDate.ToString("yyyy-MM-dd")</td>
+						</tr>
+					}
+				</table>
+
+			</div>
+		</div>
+	</div>
+	<div class="transaction-first-layer">
+		<h4>Top Highest Transaction</h4>
+		<table>
+			<tr>
+				<th>Description</th>
+				<th>Tags</th>
+				<th>Type</th>
+				<th>Amount</th>
+				<th>Date</th>
+			</tr>
+			@foreach (var remaining_debt in highest_transaction)
+			{
+				<tr>
+					<td>@remaining_debt._description</td>
+					<td>@remaining_debt._tags</td>
+					<td>@remaining_debt._types</td>
+					<td>@currency@remaining_debt._amount</td>
+					<td>@remaining_debt._date.ToString("yyyy-MM-dd")</td>
+				</tr>
+			}
+		</table>
+	</div>
+
+
+</div>
+

@@ -1,0 +1,58 @@
+.custom-buttone[b-3b5sw87qvo] {
+    width: 80px;
+    height: 40px;
+    background-color: #3D00CA;
+    color: white;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+h4[b-3b5sw87qvo] {
+    font-size: 18px;
+}
+
+.user-textfield[b-3b5sw87qvo] {
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #e4e4e7;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+}
+.custom-tags[b-3b5sw87qvo] {
+    width: 300px;
+    height: 40px;
+    background-color: #e4e4e7;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    position: relative;
+    appearance: none;
+    background-image: url('https://img.icons8.com/ios-filled/50/000000/expand-arrow.png');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 15px;
+    font-size: 14px;
+    color: black;
+    text-overflow: ellipsis;
+
+    max-height: 150px;
+}
+
+    .custom-tags option[b-3b5sw87qvo] {
+        max-height: 150px;
+        padding: 10px;
+        font-size: 14px;
+        color: #333;
+        border: 1px solid #e6e6e6;
+        overflow-y: scroll;
+    }
+  

@@ -1,0 +1,29 @@
+﻿@page "/Register"
+@layout LoginLayout
+@inject NavigationManager navigationmanger
+
+<div class="container-box">
+	<div class="login-box">
+		<h3 style="width: 50%; font-size: 23px; font-weight: bold; color: #313131; letter-spacing:2px;">Register</h3>
+		<form>
+			<label style="margin-top: 10px;" for="username">Username</label><br />
+			<input class="user-textfield" type="text" placeholder="Username" id="username" name="username" /><br />
+			<label style="margin-top: 10px;" for="password">Password</label><br />
+			<input class="user-textfield" type="password" placeholder="Password" id="password" name="password" /><br />
+			<label style="margin-top: 10px;" for="password">Confirm Password</label><br />
+			<input class="user-textfield" type="password" placeholder="Password" id="password" name="password" /><br />
+			<input class="login-button-modify" type="button" value="Create Account" />
+		</form>
+		<div style="width: 100%; margin-top: 15px; display: flex; justify-content: center; align-items: center">
+			<button @onclick="NextPage">Already have an account?&nbsp;<b>Login</b></button>
+		</div>
+	</div>
+</div>
+
+@code
+{
+	void NextPage()
+	{
+		navigationmanger.NavigateTo("/Login");
+	}
+}

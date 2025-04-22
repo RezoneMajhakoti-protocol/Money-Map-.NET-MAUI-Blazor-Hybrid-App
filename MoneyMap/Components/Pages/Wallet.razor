@@ -1,0 +1,88 @@
+﻿@page "/wallet"
+@layout MainNavLayout
+@inject ITData data
+
+<div class="full-body">
+	<div class="total-box">
+		<div class="inside-total-box">
+			<h5 style="font-size: 14px;">All Total Balance</h5>
+			<h3>@currency@data.getTotalBalance()</h3>
+		</div>
+		<div class="inside-total-box">
+			<h5 style="font-size: 14px;">Total Inflow</h5>
+			<h3>@currency@data.getTotalIncome()</h3>
+		</div>
+		<div class="inside-total-box">
+			<h5 style="font-size: 14px;">All Total Outflow</h5>
+			<h3>@currency@data.getTotalExpense()</h3>
+		</div>
+		<div class="inside-total-box">
+			<h5 style="font-size: 14px;">All Remaining Debt</h5>
+			<h3>@currency@data.getTotalDebt()</h3>
+		</div>
+	</div>
+	<div class="debt-first-layer">
+		<div class="debt-two-box">
+			<div style="display:flex; flex-direction: row; justify-content: space-between;">
+				<h4>Total Remaining Debt</h4>
+				<h4 style="color: red;">@currency@Remaining_debt()</h4>
+
+			</div>
+
+
+			<div class="inside-debt-box">
+
+				<table>
+					<tr>
+						<th>Debt Source</th>
+						<th>Amount</th>
+						<th>Due Date</th>
+					</tr>
+
+
+
+					@foreach (var remaining_debt in _TOTAL_REMAINING_DEBT_LIST)
+					{
+						<tr>
+							<td>@remaining_debt._debtSource</td>
+							<td>@currency@remaining_debt._debtAmount</td>
+							<td>@remaining_debt._debtDate.ToString("yyyy-MM-dd")</td>
+						</tr>
+					}
+
+				</table>
+
+			</div>
+		</div>
+		<div class="debt-two-box">
+			<div style="display:flex; flex-direction: row; justify-content: space-between;">
+				<h4>Total Cleared Debt</h4>
+				<h4 style="color: #3D00CA;">@currency@Cleared_debt()</h4>
+
+			</div>
+			<div class="inside-debt-box">
+				<table>
+					<tr>
+						<th>Debt Source</th>
+						<th>Amount</th>
+						<th>Paid Date</th>
+					</tr>
+					@foreach (var remaining_debt in _TOTAL_CLEARD_DEBT_LIST)
+					{
+						<tr>
+							<td>@remaining_debt._debtSource</td>
+							<td>@currency@remaining_debt._debtAmount</td>
+							<td>@remaining_debt._debtDate.ToString("yyyy-MM-dd")</td>
+						</tr>
+					}
+				</table>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+@code {
+
+}

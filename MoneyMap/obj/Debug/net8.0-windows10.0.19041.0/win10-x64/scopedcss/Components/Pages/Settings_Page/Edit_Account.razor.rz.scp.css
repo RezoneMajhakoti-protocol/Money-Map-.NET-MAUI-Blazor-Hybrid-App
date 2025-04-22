@@ -1,0 +1,17 @@
+.user-textfield[b-wt863tt6kl] {
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #e4e4e7;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+}
+
+.login-button-modify[b-wt863tt6kl] {
+    width: 300px;
+    height: 40px;
+    background-color: #3D00CA;
+    border-radius: 5px;
+    margin-top: 15px;
+    color: white;
+}

@@ -1,0 +1,32 @@
+@inherits LayoutComponentBase
+@inject ITData data
+@inject ISnackbar snack
+
+    <MudThemeProvider />
+    <MudPopoverProvider />
+    <MudDialogProvider />
+    <MudSnackbarProvider />
+
+@* #f6f5f7 <div class="modal-backdrop fade show"></div>*@
+<MudLayout>
+    <MudAppBar Style="border-bottom: 1px solid #1c1c1c; background-color: #f6f5f7;" Elevation="0">
+        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Dark" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" />
+        <MudText Style="font-weight: bold; font-size: 16px; color: #1c1c1c">@_title</MudText>
+       
+        <MudSpacer />
+        <MudButton Style=" font-size: 16px; color: #c9272e" @onclick="ResetAll">Reset</MudButton>
+    
+    </MudAppBar>
+    <MudDrawer @bind-Open="@_drawerOpen" Style=" background-color: #3D00CA;">
+        <NavMenu />
+    </MudDrawer>
+    <MudMainContent Style="padding-left: 20px; padding-top: 80px; padding-right: 20px; ">
+
+        <CascadingValue Value="SetAppBarTitle">
+            @Body
+        </CascadingValue>
+   
+    </MudMainContent>
+</MudLayout>
+
+

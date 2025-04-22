@@ -1,0 +1,504 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|c:\\users\\rezone\\source\\repos\\moneymap\\moneymap\\components\\pages\\settings.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|solutionrelative:moneymap\\components\\pages\\settings.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|c:\\users\\rezone\\source\\repos\\moneymap\\moneymap\\components\\pages\\settings.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|solutionrelative:moneymap\\components\\pages\\settings.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|c:\\users\\rezone\\source\\repos\\moneymap\\moneymap\\components\\pages\\settings.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|solutionrelative:moneymap\\components\\pages\\settings.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|c:\\users\\rezone\\source\\repos\\moneymap\\moneymap\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|solutionrelative:moneymap\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|c:\\users\\rezone\\source\\repos\\moneymap\\moneymap\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|solutionrelative:moneymap\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|c:\\users\\rezone\\source\\repos\\moneymap\\moneymap\\components\\layout\\mainnavlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|solutionrelative:moneymap\\components\\layout\\mainnavlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|c:\\users\\rezone\\source\\repos\\moneymap\\moneymap\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|solutionrelative:moneymap\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|c:\\users\\rezone\\source\\repos\\moneymap\\moneymap\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|solutionrelative:moneymap\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|c:\\users\\rezone\\source\\repos\\moneymap\\moneymap\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|solutionrelative:moneymap\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|c:\\users\\rezone\\source\\repos\\moneymap\\moneymap\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|solutionrelative:moneymap\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|c:\\users\\rezone\\source\\repos\\moneymap\\moneymap\\application_service\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|solutionrelative:moneymap\\application_service\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|c:\\users\\rezone\\source\\repos\\moneymap\\moneymap\\application_service\\itdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|solutionrelative:moneymap\\application_service\\itdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|c:\\users\\rezone\\source\\repos\\moneymap\\moneymap\\components\\pages\\transaction.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|solutionrelative:moneymap\\components\\pages\\transaction.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|c:\\users\\rezone\\source\\repos\\moneymap\\moneymap\\components\\pages\\wallet.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|solutionrelative:moneymap\\components\\pages\\wallet.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|c:\\users\\rezone\\source\\repos\\moneymap\\moneymap\\components\\pages\\loancapital.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|solutionrelative:moneymap\\components\\pages\\loancapital.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|c:\\users\\rezone\\source\\repos\\moneymap\\moneymap\\components\\pages\\settings_page\\currency.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|solutionrelative:moneymap\\components\\pages\\settings_page\\currency.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|c:\\users\\rezone\\source\\repos\\moneymap\\moneymap\\components\\pages\\loginpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|solutionrelative:moneymap\\components\\pages\\loginpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|c:\\users\\rezone\\source\\repos\\moneymap\\moneymap\\components\\pages\\settings_page\\edit_account.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|solutionrelative:moneymap\\components\\pages\\settings_page\\edit_account.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|c:\\users\\rezone\\source\\repos\\moneymap\\moneymap\\components\\layout\\splashscreen.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|solutionrelative:moneymap\\components\\layout\\splashscreen.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|c:\\users\\rezone\\source\\repos\\moneymap\\moneymap\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|solutionrelative:moneymap\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|c:\\users\\rezone\\source\\repos\\moneymap\\moneymap\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|solutionrelative:moneymap\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|c:\\users\\rezone\\source\\repos\\moneymap\\moneymap\\components\\layout\\loginlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|solutionrelative:moneymap\\components\\layout\\loginlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|c:\\users\\rezone\\source\\repos\\moneymap\\moneymap\\components\\pages\\transaction.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|solutionrelative:moneymap\\components\\pages\\transaction.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|c:\\users\\rezone\\source\\repos\\moneymap\\moneymap\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|solutionrelative:moneymap\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|c:\\users\\rezone\\source\\repos\\moneymap\\moneymap\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|solutionrelative:moneymap\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|c:\\users\\rezone\\source\\repos\\moneymap\\moneymap\\models\\debt_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|solutionrelative:moneymap\\models\\debt_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|c:\\users\\rezone\\source\\repos\\moneymap\\moneymap\\components\\layout\\mainnavlayout.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|solutionrelative:moneymap\\components\\layout\\mainnavlayout.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|c:\\users\\rezone\\source\\repos\\moneymap\\moneymap\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|solutionrelative:moneymap\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|c:\\users\\rezone\\source\\repos\\moneymap\\moneymap\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|solutionrelative:moneymap\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|c:\\users\\rezone\\source\\repos\\moneymap\\moneymap\\components\\layout\\splashscreen.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4B408317-79B3-47AE-8943-BF40573D1E8E}|MoneyMap\\MoneyMap.csproj|solutionrelative:moneymap\\components\\layout\\splashscreen.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Settings.razor.cs",
+              "DocumentMoniker": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Pages\\Settings.razor.cs",
+              "RelativeDocumentMoniker": "MoneyMap\\Components\\Pages\\Settings.razor.cs",
+              "ToolTip": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Pages\\Settings.razor.cs",
+              "RelativeToolTip": "MoneyMap\\Components\\Pages\\Settings.razor.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T06:41:58.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "MoneyMap\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\wwwroot\\index.html",
+              "RelativeToolTip": "MoneyMap\\wwwroot\\index.html",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-22T09:50:58.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dashboard.razor",
+              "DocumentMoniker": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Pages\\Dashboard.razor",
+              "RelativeDocumentMoniker": "MoneyMap\\Components\\Pages\\Dashboard.razor",
+              "ToolTip": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Pages\\Dashboard.razor",
+              "RelativeToolTip": "MoneyMap\\Components\\Pages\\Dashboard.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T11:30:10.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "MoneyMap\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "MoneyMap\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T10:48:02.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NavMenu.razor.css",
+              "DocumentMoniker": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeDocumentMoniker": "MoneyMap\\Components\\Layout\\NavMenu.razor.css",
+              "ToolTip": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeToolTip": "MoneyMap\\Components\\Layout\\NavMenu.razor.css",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAAGAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-10T12:13:20.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainNavLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Layout\\MainNavLayout.razor",
+              "RelativeDocumentMoniker": "MoneyMap\\Components\\Layout\\MainNavLayout.razor",
+              "ToolTip": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Layout\\MainNavLayout.razor",
+              "RelativeToolTip": "MoneyMap\\Components\\Layout\\MainNavLayout.razor",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T10:48:09.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Settings.razor.css",
+              "DocumentMoniker": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Pages\\Settings.razor.css",
+              "RelativeDocumentMoniker": "MoneyMap\\Components\\Pages\\Settings.razor.css",
+              "ToolTip": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Pages\\Settings.razor.css",
+              "RelativeToolTip": "MoneyMap\\Components\\Pages\\Settings.razor.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-10T12:09:39.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Settings.razor",
+              "DocumentMoniker": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Pages\\Settings.razor",
+              "RelativeDocumentMoniker": "MoneyMap\\Components\\Pages\\Settings.razor",
+              "ToolTip": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Pages\\Settings.razor",
+              "RelativeToolTip": "MoneyMap\\Components\\Pages\\Settings.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T10:22:33.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MoneyMap\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\MauiProgram.cs",
+              "RelativeToolTip": "MoneyMap\\MauiProgram.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBkAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T09:45:56.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MoneyMap\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\MainPage.xaml",
+              "RelativeToolTip": "MoneyMap\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-22T09:51:24.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Data.cs",
+              "DocumentMoniker": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Application_Service\\Data.cs",
+              "RelativeDocumentMoniker": "MoneyMap\\Application_Service\\Data.cs",
+              "ToolTip": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Application_Service\\Data.cs",
+              "RelativeToolTip": "MoneyMap\\Application_Service\\Data.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwB4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T10:49:33.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "MoneyMap\\Components\\Layout\\MainLayout.razor.css",
+              "ToolTip": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeToolTip": "MoneyMap\\Components\\Layout\\MainLayout.razor.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-22T11:29:59.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Transaction.razor.cs",
+              "DocumentMoniker": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Pages\\Transaction.razor.cs",
+              "RelativeDocumentMoniker": "MoneyMap\\Components\\Pages\\Transaction.razor.cs",
+              "ToolTip": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Pages\\Transaction.razor.cs",
+              "RelativeToolTip": "MoneyMap\\Components\\Pages\\Transaction.razor.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T10:40:52.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit_Account.razor",
+              "DocumentMoniker": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Pages\\Settings_Page\\Edit_Account.razor",
+              "RelativeDocumentMoniker": "MoneyMap\\Components\\Pages\\Settings_Page\\Edit_Account.razor",
+              "ToolTip": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Pages\\Settings_Page\\Edit_Account.razor",
+              "RelativeToolTip": "MoneyMap\\Components\\Pages\\Settings_Page\\Edit_Account.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T10:23:09.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SplashScreen.razor",
+              "DocumentMoniker": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Layout\\SplashScreen.razor",
+              "RelativeDocumentMoniker": "MoneyMap\\Components\\Layout\\SplashScreen.razor",
+              "ToolTip": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Layout\\SplashScreen.razor",
+              "RelativeToolTip": "MoneyMap\\Components\\Layout\\SplashScreen.razor",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T10:13:19.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Wallet.razor",
+              "DocumentMoniker": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Pages\\Wallet.razor",
+              "RelativeDocumentMoniker": "MoneyMap\\Components\\Pages\\Wallet.razor",
+              "ToolTip": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Pages\\Wallet.razor",
+              "RelativeToolTip": "MoneyMap\\Components\\Pages\\Wallet.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-23T02:42:55.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoanCapital.razor",
+              "DocumentMoniker": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Pages\\LoanCapital.razor",
+              "RelativeDocumentMoniker": "MoneyMap\\Components\\Pages\\LoanCapital.razor",
+              "ToolTip": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Pages\\LoanCapital.razor",
+              "RelativeToolTip": "MoneyMap\\Components\\Pages\\LoanCapital.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-23T02:43:37.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Transaction.razor",
+              "DocumentMoniker": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Pages\\Transaction.razor",
+              "RelativeDocumentMoniker": "MoneyMap\\Components\\Pages\\Transaction.razor",
+              "ToolTip": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Pages\\Transaction.razor",
+              "RelativeToolTip": "MoneyMap\\Components\\Pages\\Transaction.razor",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T10:48:24.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ITData.cs",
+              "DocumentMoniker": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Application_Service\\ITData.cs",
+              "RelativeDocumentMoniker": "MoneyMap\\Application_Service\\ITData.cs",
+              "ToolTip": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Application_Service\\ITData.cs",
+              "RelativeToolTip": "MoneyMap\\Application_Service\\ITData.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA1wBsAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T10:50:14.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Currency.razor",
+              "DocumentMoniker": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Pages\\Settings_Page\\Currency.razor",
+              "RelativeDocumentMoniker": "MoneyMap\\Components\\Pages\\Settings_Page\\Currency.razor",
+              "ToolTip": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Pages\\Settings_Page\\Currency.razor",
+              "RelativeToolTip": "MoneyMap\\Components\\Pages\\Settings_Page\\Currency.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T10:23:04.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LoginLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Layout\\LoginLayout.razor",
+              "RelativeDocumentMoniker": "MoneyMap\\Components\\Layout\\LoginLayout.razor",
+              "ToolTip": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Layout\\LoginLayout.razor",
+              "RelativeToolTip": "MoneyMap\\Components\\Layout\\LoginLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T10:13:38.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginPage.razor",
+              "DocumentMoniker": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Pages\\LoginPage.razor",
+              "RelativeDocumentMoniker": "MoneyMap\\Components\\Pages\\LoginPage.razor",
+              "ToolTip": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Pages\\LoginPage.razor",
+              "RelativeToolTip": "MoneyMap\\Components\\Pages\\LoginPage.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T11:30:10.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MoneyMap\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\MainPage.xaml.cs",
+              "RelativeToolTip": "MoneyMap\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T09:52:42.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\App.xaml.cs",
+              "RelativeDocumentMoniker": "MoneyMap\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\App.xaml.cs",
+              "RelativeToolTip": "MoneyMap\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T10:59:34.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "MoneyMap\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "MoneyMap\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T10:48:21.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Debt_Model.cs",
+              "DocumentMoniker": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Models\\Debt_Model.cs",
+              "RelativeDocumentMoniker": "MoneyMap\\Models\\Debt_Model.cs",
+              "ToolTip": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Models\\Debt_Model.cs",
+              "RelativeToolTip": "MoneyMap\\Models\\Debt_Model.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T10:49:22.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MainNavLayout.razor.cs",
+              "DocumentMoniker": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Layout\\MainNavLayout.razor.cs",
+              "RelativeDocumentMoniker": "MoneyMap\\Components\\Layout\\MainNavLayout.razor.cs",
+              "ToolTip": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Layout\\MainNavLayout.razor.cs",
+              "RelativeToolTip": "MoneyMap\\Components\\Layout\\MainNavLayout.razor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T10:48:42.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "MoneyMap\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\_Imports.razor",
+              "RelativeToolTip": "MoneyMap\\Components\\_Imports.razor",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T10:12:22.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "MoneyMap\\Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Routes.razor",
+              "RelativeToolTip": "MoneyMap\\Components\\Routes.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T09:59:44.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SplashScreen.razor.css",
+              "DocumentMoniker": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Layout\\SplashScreen.razor.css",
+              "RelativeDocumentMoniker": "MoneyMap\\Components\\Layout\\SplashScreen.razor.css",
+              "ToolTip": "C:\\Users\\Rezone\\source\\repos\\MoneyMap\\MoneyMap\\Components\\Layout\\SplashScreen.razor.css",
+              "RelativeToolTip": "MoneyMap\\Components\\Layout\\SplashScreen.razor.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-22T10:13:23.768Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+@page "/currency"
+@layout Settings
+@inject ITData data
+@inject ISnackbar Snackbar
+
+
+<div>
+	<label style="margin-top: 10px;" for="username">Change Currency</label>
+	<br/>
+	<select style="margin-top: 10px;"  class="custom-currency-box" name="change-currency" id="change-currency" @bind="_CURRENCY_CODE">
+	            <option selected>USD</option>
+		<option>NPR</option>
+		<option>EUR€</option>
+	</select>
+	<br />
+	<input class="login-button-modify" type="button" value="Save" @onclick="Save"/>
+</div>

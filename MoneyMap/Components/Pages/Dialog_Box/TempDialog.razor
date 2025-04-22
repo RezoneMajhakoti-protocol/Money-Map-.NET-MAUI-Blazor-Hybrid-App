@@ -1,0 +1,238 @@
+@inject ITData data
+@inject ISnackbar Snackbar
+
+<MudDialog>
+    <TitleContent>
+        <h4>Add Transaction</h4>
+    </TitleContent>
+    <DialogContent>
+        <form>
+      
+            @if (Type == "Transaction")
+            {
+                <label for="username">Description</label>
+                <br />
+                <input class="user-textfield" type="text" id="description" name="description" @bind="transaction._add_description" required />
+
+                <br />
+            }
+            else if (Type == "Loan")
+            {
+                <label for="username">Debt Source</label>
+                <br />
+                <input class="user-textfield" type="text" id="description" name="description" @bind="transaction.debt_source" required />
+
+                <br />
+            }
+           
+           
+    
+            @if (Type == "Transaction")
+            {
+                <label style="margin-top: 10px;" for="date">Date</label>
+
+                <br />
+                <input style="margin-top: 5px;" class="user-textfield" type="date" id="date" name="date" @bind="transaction.add_date" disabled/>
+
+                <br />
+                <label style="margin-top: 10px;" for="types">Types</label>
+
+                <br />
+                <select style="margin-top: 5px;" class="custom-tags" name="select-box-tags" id="select-box-tags" @bind="transaction.add_type">
+                    <option selected>Expense</option>
+                    <option>Income</option>
+                </select>
+                <label style="margin-top: 10px;" for="tags">Tags</label>
+
+                <br />
+                <input class="user-textfield" type="text" id="tags" name="tags" @bind="transaction.add_tags" required />
+
+                <br />
+                <label style="margin-top: 10px;" for="amount">Amount</label>
+
+                <br />
+                <input class="user-textfield" type="number" id="amount" name="amount" @bind="transaction.add_amount" />
+
+                <br />
+            }
+            else
+            {
+                <label style="margin-top: 10px;" for="amount">Amount</label>
+
+                <br />
+                <input class="user-textfield" type="number" id="amount" name="amount" @bind="transaction.add_amount" />
+
+                <br />
+                <label style="margin-top: 10px;" for="date">Date</label>
+
+                <br />
+                <input style="margin-top: 5px;" class="user-textfield" type="date" id="date" name="date" @bind="transaction.add_date"/>
+
+                <br />
+                <label style="margin-top: 10px;" for="types">Types</label>
+
+                <br />
+                <select style="margin-top: 5px;" class="custom-tags" name="select-box-tags" id="select-box-tags" @bind="transaction.debt_status">
+                    <option selected>Paid</option>
+                    <option>Unpaid</option>
+                </select>
+                
+            }
+
+        </form>
+    </DialogContent>
+    <DialogActions>
+        <button class="custom-buttone" @onclick="Cancel">Cancel</button>
+        <button class="custom-buttone" @onclick="Submit">Add</button>
+       
+    </DialogActions>
+</MudDialog>
+@code{
+    [CascadingParameter]
+    private MudDialogInstance MudDialog { get; set; }
+
+    [Parameter]
+    public string? Type { get; set; }
+
+    protected override void OnInitialized()
+    {
+
+
+    }
+
+    public class NewTransaction()
+    {
+        public string _add_description { get; set; }
+        public DateTime add_date { get; set; } = DateTime.Now;
+        public string add_type { get; set; } = "Expenses";
+        public string add_tags { get; set; }
+        public double add_amount { get; set; }
+        public string debt_source { get; set; }
+        public string debt_status { get; set; } = "Unpaid";
+    }
+
+    NewTransaction transaction = new NewTransaction();
+
+    private void Submit()
+    {
+
+        try
+        {
+
+        }
+        catch(Exception e)
+        {
+
+        }
+
+        if(Type == "Transaction")
+        {
+            if (transaction.add_type == "Expense")
+            {
+                if (transaction.add_amount <= data.getTotalBalance() && data.getTotalBalance() != 0)
+                {
+                    data.AddTransaction(
+                        transaction._add_description,
+                        transaction.add_tags,
+                        transaction.add_type == null && transaction.add_type != "Debt" ? "Expenses" : transaction.add_type,
+                        transaction.add_amount,
+                        transaction.add_date);
+                    Snackbar.Add("Transaction Successfully Added!", Severity.Success);
+                    MudDialog.Close(DialogResult.Ok(true));
+                }
+                else
+                {
+                    Snackbar.Add("Low Balance! Total Balance: " + data.getTotalBalance().ToString(), Severity.Success);
+                }
+            }
+            else
+            {
+
+
+                data.AddTransaction(
+                    transaction._add_description,
+                    transaction.add_tags,
+                    transaction.add_type == null && transaction.add_type != "Debt" ? "Expenses" : transaction.add_type,
+                    transaction.add_amount,
+                    transaction.add_date);
+                Snackbar.Add("Transaction Successfully Added!", Severity.Success);
+                MudDialog.Close(DialogResult.Ok(true));
+
+            }
+
+        }
+        else if(Type == "Loan")
+        {
+
+            if(transaction.debt_status == "Paid")
+            {
+                if(data.getTotalBalance() != 0)
+                {
+
+                    if (transaction.add_amount <= data.getTotalBalance())
+                    {
+                        if(data.getTotalDebt() != 0)
+                        {
+                            if (transaction.add_amount <= data.getTotalDebt() && data.getTotalDebt() != 0)
+                            {
+                                  data.AddDebt(
+                                  transaction.debt_source,
+                                  transaction.add_amount,
+                                  transaction.add_date,
+                                  transaction.debt_status
+                               );
+                                Snackbar.Add("Loan Capital Successfully Added!", Severity.Success);
+                                MudDialog.Close(DialogResult.Ok(true));
+                            }
+                            else
+                            {
+                                Snackbar.Add("Too High Amount! TOTAL DEBT: " + data.getTotalDebt().ToString(), Severity.Success);
+
+
+                            }
+                        }
+                        else
+                        {
+                            Snackbar.Add("No Any Debt To Pay! TOTAL DEBT: " + data.getTotalDebt().ToString(), Severity.Success);
+
+                        }
+
+                     
+
+
+
+                    }
+                    else
+                    { 
+                        Snackbar.Add("Amount is greater than Total Debt, Current Total Debt: " + data.getTotalDebt().ToString(), Severity.Success);
+
+                    }
+                }
+                else
+                {
+                    Snackbar.Add("Low Balance: " + data.getTotalBalance().ToString(), Severity.Success);
+                }
+
+            }
+            else if (transaction.debt_status == "Unpaid")
+            {
+                data.AddDebt(
+               transaction.debt_source,
+               transaction.add_amount,
+               transaction.add_date,
+               transaction.debt_status
+           );
+                Snackbar.Add("Transaction Successfully Added!", Severity.Success);
+                MudDialog.Close(DialogResult.Ok(true));
+
+            }
+
+        }
+
+       
+      
+     
+    }
+
+    private void Cancel() => MudDialog.Cancel();
+}

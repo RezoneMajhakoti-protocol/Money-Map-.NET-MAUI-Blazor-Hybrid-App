@@ -1,0 +1,1 @@
+C:\Users\Rezone\source\repos\MoneyMap\MoneyMap\MoneyMap.csproj;x64
